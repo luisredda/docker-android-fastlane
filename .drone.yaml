@@ -1,0 +1,12 @@
+kind: pipeline
+
+name: default
+steps:
+- name: Publish
+  image: plugins/docker
+  settings:
+    username: luisredda
+    password: 
+      from_secret: p_docker
+    repo: luisredda/docker-android-fastlane
+    auto_tag: true
