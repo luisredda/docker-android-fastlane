@@ -6,7 +6,7 @@ ENV ANDROID_SDK_URL https://dl.google.com/android/repository/commandlinetools-li
 ENV ANDROID_API_LEVEL android-23
 ENV ANDROID_BUILD_TOOLS_VERSION 23.0.3
 ENV ANDROID_HOME /usr/local/android-sdk-linux
-ENV ANDROID_VERSION 30
+ENV ANDROID_VERSION 23
 ENV PATH $PATH:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/cmdline-tools/bin
 
 RUN mkdir "$ANDROID_HOME" .android && \
