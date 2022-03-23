@@ -3,8 +3,8 @@ FROM openjdk:8
 LABEL softartdev <artik222012@gmail.com>
 
 ENV ANDROID_SDK_URL https://dl.google.com/android/repository/commandlinetools-linux-7583922_latest.zip
-ENV ANDROID_API_LEVEL android-30
-ENV ANDROID_BUILD_TOOLS_VERSION 30.0.3
+ENV ANDROID_API_LEVEL android-23
+ENV ANDROID_BUILD_TOOLS_VERSION 23.3.0
 ENV ANDROID_HOME /usr/local/android-sdk-linux
 ENV ANDROID_VERSION 30
 ENV PATH $PATH:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/cmdline-tools/bin
